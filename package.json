@@ -22,7 +22,7 @@
     "test:cov": "npm test -- --coverage --watchAll=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand",
     "predeploy" : "npm run build",
-    "deply" : "gh-pages -d build"
+    "deploy" : "gh-pages -d build"
   },
   "dependencies": {
     "@coreui/chartjs": "^3.0.0",
